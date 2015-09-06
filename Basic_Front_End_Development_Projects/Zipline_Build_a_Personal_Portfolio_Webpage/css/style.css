@@ -1,0 +1,81 @@
+body {
+  padding-top: 100px;
+  background-image: url("http://jeffcarsonmusic.com/wp-content/uploads/2015/04/math-coding-blue-background-creative-wallpapers-HD.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+img:hover {
+    opacity: 0.5;
+}
+
+.popInAndOut{
+  background-color: #DFDFDF;
+  color: black;
+  border: 1px solid #6C6C6C;
+  margin-top: 1%;
+}
+
+.popOut{
+  border: 1px solid #6C6C6C;
+}
+
+.border {
+  border: 1px outset #4D4A48;
+  width: 80%;
+  margin-left: 11%;
+}
+
+.opacityBox {
+  margin: 30px;
+  background-color: #ffffff;
+  opacity: 0.8;
+  color: black;
+}
+
+.wrapBox {
+  border: 2px ridge #6C6C6C;
+}
+
+#navHeader {
+  padding-left: 17%;
+}
+#navBar {
+  background-color: #BDBCBC;
+}
+
+#home {
+  background-image: url("http://mooreco360.com/images/series/oneboard/large/1board-1.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+#about {
+  background-image: url("http://www.lake-garda-property.com/assets/Uploads/_resampled/headerimage-useful-information-real-estate-italy.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  color: 
+}
+
+#portfolio {
+  background-image : url("https://raw.githubusercontent.com/harvard-lil/awesome/develop/django/static/images/empty-display.png");
+  background-size: 100% 127%;
+  background-repeat: no-repeat;
+}
+
+#contact {
+  background-image: url("http://www.green4solutions.com/media/1013/contact.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  color: black;
+}
+
+#footer{
+  background-color: #030C10;
+}
+
+#footerList {
+  padding-top: 1%;
+  margin-top: 0%;
+}
+

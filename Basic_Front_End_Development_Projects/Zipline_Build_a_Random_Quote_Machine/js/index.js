@@ -15,6 +15,17 @@ $(document).ready(function() {
        $('#author').html("<h3>- Unknown</h3>");
      }
    });
-    
   });
+  
+  $('#tweetThis').click(function() {
+    var text = "";
+    text += $('#quote').text() + '\n' + $('#author').text() + '\n\nTweet your own quotes\n';
+    tweet("http://bit.ly/1Uxj9bs", text);
+  });
+  
+  function tweet(url, text) {
+            url = encodeURIComponent(url);
+            text = encodeURIComponent(text);
+            window.open("http://twitter.com/intent/tweet?original_referer=" + url + "&text=" + text + "&url=" + url, "_blank");
+        }
 });

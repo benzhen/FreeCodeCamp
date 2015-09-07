@@ -1,0 +1,28 @@
+body {
+  background-color: #EAE0C8;
+  margin-top: 2%;
+}
+
+#title{
+  font-size: 600%;
+  padding-left: 1%;
+  padding-right: 1%;
+  border: 10px ridge red;
+  display: inline;
+}
+
+#underTitleText{
+  text-decoration: underline;
+}
+
+#quoteButton {
+  margin-top: 2%;
+}
+
+#quoteArea {
+  margin-top: 3%;
+}
+
+.pageFont {
+  font-family: 'Lobster', cursive;
+}

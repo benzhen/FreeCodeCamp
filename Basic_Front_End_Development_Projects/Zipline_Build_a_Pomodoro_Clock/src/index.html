@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Pomodoro Timer</title>
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.4.0/animate.min.css">
+  <link rel="stylesheet" type="text/css" href="../css/style.css">
+
+  <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+<body>
+  <div class="container text-center">
+    <div class="text-center">
+      <h1>Pomodoro Timer</h1>
+    </div>
+    <!-- Timer -->
+    <div class="row">
+      <h3 class="col-md-6">Rest Time</h3>
+      <h3 class="cod-md-6">Pomodoro Time</h3>
+    </div>
+    
+    <div class="row">
+      <!-- Rest Time -->
+      <ul class="list-inline col-md-6">
+        <li><h1 id="decR">-</h1></li>
+        <li><h1 id='restTime'>5</h1></li>
+        <li><h1 id="incR">+</h1></li>
+      </ul>
+      <!-- Pomodoro Time -->
+      <ul class="list-inline col-md-6">
+        <li><h1 id="decP">-</h1></li>
+        <li><h1 id='pomoTime'>25</h1></li>
+        <li><h1 id="incP">+</h1></li>
+      </ul>
+    </div>
+    <!-- Start Pomodoro Time -->
+    <button class='btn btn-primary' id='go'>Go</button>
+    <!-- Time Left Displayed Here -->
+    <h1 id="state"><h1>
+    <h1 id='clock'>Time</h1>
+      
+    <!-- Sound assets -->
+    <div class="container">  
+      <audio id="timeUp">
+        <source src="http://myinstants.com/media/sounds/correct.swf.mp3"></source>
+        Audio not supported.
+      </audio>
+    </div>
+  </div>
+
+
+  <!-- JS -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
+  <script type="text/javascript" src="../js/index.js"></script>
+</body>
+</html>
